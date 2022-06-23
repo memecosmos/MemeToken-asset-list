@@ -1,0 +1,45 @@
+{
+  "chainId": "meme-1",
+  "chainName": "MEME",
+  "rpc": "https://rpc-meme-1.meme.sx:443/",
+  "rest": "https://api-meme-1.meme.sx:443/",
+  "stakeCurrency": {
+    "coinDenom": "MEME",
+    "coinMinimalDenom": "umeme",
+    "coinDecimals": 6
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "meme",
+    "bech32PrefixAccPub": "memepub",
+    "bech32PrefixValAddr": "memevaloper",
+    "bech32PrefixValPub": "memevaloperpub",
+    "bech32PrefixConsAddr": "memevalcons",
+    "bech32PrefixConsPub": "memevalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "MEME",
+      "coinMinimalDenom": "umeme",
+      "coinDecimals": 6,
+      "coinGeckoId": ""
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "MEME",
+      "coinMinimalDenom": "umeme",
+      "coinDecimals": 6,
+      "coinGeckoId": ""
+    }
+  ],
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.0025,
+    "average": 0.005,
+    "high": 0.01
+  },
+  "features": ["cosmwasm", "stargate", "ibc-transfer"]
+}
