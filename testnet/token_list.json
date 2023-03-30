@@ -2,7 +2,7 @@
    "name":"Meme Token list",
    "base_token":{
       "id":"meme-network",
-      "chain_id":"meme-testnet-1",
+      "chain_id":"meme-testnet-2",
       "token_address":"",
       "symbol":"MEME",
       "name":"Meme",
@@ -31,7 +31,7 @@
          "pool_assets":[
             {
                "id":"meme-network",
-               "chain_id":"meme-testnet-1",
+               "chain_id":"meme-testnet-2",
                "token_address":"",
                "symbol":"MEME",
                "name":"Meme",
@@ -45,7 +45,7 @@
             },
             {
                "id":"meme-network",
-               "chain_id":"meme-testnet-1",
+               "chain_id":"meme-testnet-2",
                "token_address":"meme1qef2vwh2jxvelgr6e9eyky7agt5pzeuqxxm8mnfxgnn9j47yvt8su4hk92",
                "symbol":"JOKE",
                "name":"Joke",
